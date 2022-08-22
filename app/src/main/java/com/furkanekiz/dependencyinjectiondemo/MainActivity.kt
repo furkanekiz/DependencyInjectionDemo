@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
             .makeACallWithRecording()
 
 
-
         /*val battery = Battery()
         val memoryCard = MemoryCard()
         val serviceProvider = ServiceProvider()
