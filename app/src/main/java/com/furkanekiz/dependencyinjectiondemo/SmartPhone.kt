@@ -6,7 +6,7 @@ import javax.inject.Singleton
 
 @Singleton
 class SmartPhone @Inject
-constructor(val battery: Battery, val simCard: SIMCard, val memoryCard: MemoryCard) {
+constructor(battery: Battery, simCard: SIMCard, memoryCard: MemoryCard) {
 
     init {
         battery.getPower()
